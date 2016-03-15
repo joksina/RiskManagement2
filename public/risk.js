@@ -186,7 +186,7 @@ angular.module('risk.main', [])
   $scope.riskEval();
 
 //set a default value for the chart
-  $scope.data = $scope.possibilities[9];
+  $scope.data = $scope.possibilities[6];
 
   $scope.rating = 0;
   $scope.moveChart = function() {
