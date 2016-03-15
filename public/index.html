@@ -1,0 +1,97 @@
+<!DOCTYPE HTML>
+
+<html ng-app="risk">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    
+    <title>Risk Manager</title>
+    <link href = 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css' rel = 'stylesheet' type="text/css" media = 'screen'>
+    <link rel="stylesheet" href="bower_components/angular-chart.js/dist/angular-chart.css">
+    <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/angular_material/1.0.0/angular-material.min.css">
+    <link rel="stylesheet" href="main.css">
+  </head>
+  
+  <body ng-controller="RiskCtrl">
+    <nav class="navbar navbar-inverse" role="navigation" >
+        <a class="navbar-brand" >Risk Management</a>
+        <ul class="nav navbar-nav navbar-right"></ul>
+        <ul class="nav navbar-nav navbar-right">
+        <li><a href="#/add-expense"> Manage Risk </a></li>
+      <li><a href="#/view-summary"> View Summary </a></li>
+    </ul>
+  </nav>
+    <br>
+
+    <div >
+        <h1> Please Slide the Slider for suggestions </h1>
+      <canvas id="doughnut" class="chart chart-doughnut"
+      chart-data="data" chart-labels="assets" chart-legend="true" width="300" height="100">
+      </canvas> 
+    <md-slider style="margin-left: 5%; margin-right:10%" id='red-slider'ng-change="moveChart()" flex md-discrete ng-model="rating" step="1" min="0" max="10" aria-label="rating"> </md-slider>
+    </div>
+
+
+
+    <md-content layout-gt-sm="row">
+        <md-input-container>
+          <label>Stocks</label>
+          <input type="number" ng-model="risks.bonds" placeholder="input number">
+        </md-input-container>
+        <md-input-container>
+          <label>Bonds</label>
+          <input type="number" ng-model="risks.stocks" placeholder="input number">
+        </md-input-container>
+        <md-input-container>
+          <label>ETFs</label>
+          <input type="number" ng-model="risks.etfs" placeholder="input number">
+        </md-input-container>
+        <md-input-container>
+          <label>Commodities</label>
+          <input type="number" ng-model="risks.commodities" placeholder="input number">
+        </md-input-container>
+        <md-input-container>
+          <label>Cash</label>
+          <input type="number" ng-model="risks.cash" placeholder="input number">
+        </md-input-container>
+      <md-button ng-click="showResults()"> Submit </md-button>
+    </md-content>
+
+    <br>
+    <table class="riskTable" style="margin: 0px auto;"> 
+      <thead>
+        <tr>
+          <th>Index</th>
+          <th>Stocks</th>
+          <th>Bonds</th>
+          <th>ETFs</th>
+          <th>Commodities</th>
+          <th>Cash</th>
+        </tr>
+      </thead>
+      <tbody>       
+      <tr ng-repeat="data in eval"> 
+        <td>{{ $index + 1 }}</td>
+        <td> {{data.stocks}}% </td>
+        <td> {{data.bonds}}% </td>
+        <td> {{data.etfs}}% </td>
+        <td> {{data.commodities}}% </td>
+        <td> {{data.cash}}% </td>
+      </tr>
+      </tbody>
+    </table>
+    <script src="bower_components/angular/angular.min.js"></script>
+    <script src="bower_components/Chart.js/Chart.js"> </script>
+    <script src="bower_components/angular-chart.js/dist/angular-chart.js" type="text/javascript"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-animate.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-aria.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-messages.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angular_material/1.0.0/angular-material.min.js"></script>
+    <script src="app.js"> </script>
+    <script src="risk.js"> </script>
+
+  </body>
+
+</html>

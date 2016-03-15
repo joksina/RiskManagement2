@@ -1,0 +1,71 @@
+
+html, body {
+  background-color: lightgrey;
+  background-repeat: repeat;
+  margin: 0;
+  height: 100%;
+}
+
+table {
+
+}
+
+table, th , td  {
+  border: 1px solid grey;
+  border-collapse: collapse;
+  padding: 5px;
+}
+table tr:nth-child(odd) {
+  background-color: #f1f1f1;
+}
+table tr:nth-child(even) {
+  background-color: #ffffff;
+}
+
+.button:hover {
+  background-color: gray;
+}
+
+.riskForm {
+  float: left;
+}
+.riskTable {
+  float: left;
+}
+
+
+md-content {
+  background-color: lightgrey !important;
+  font-style: white;
+}
+
+
+.chart-container {
+  display: inline-block;
+  width: 60%;
+  height: 40%;
+  padding: 2px;
+  text-align: center;
+}
+
+#doughnut {
+  display: inline-block;
+  float: right;
+}
+
+
+h2 {
+  margin-left: 5%;
+}
+
+#red-slider .md-thumb:after, #red-slider .md-track{
+    background-color: grey !important;
+    border-color: grey !important;
+}
+#red-slider .md-focus-thumb, #red-slider .md-focus-ring{
+    background-color: grey;
+}
+
+.input-container {
+  background-color: lightgrey;
+}

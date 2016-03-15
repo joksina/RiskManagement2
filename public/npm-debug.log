@@ -1,0 +1,776 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@2.14.12
+3 info using node@v4.3.1
+4 verbose readDependencies loading dependencies from /Users/joksina/Documents/Risk Management/public/package.json
+5 warn package.json risk-management@1.0.0 No repository field.
+6 warn package.json risk-management@1.0.0 No README data
+7 verbose install where, deps [ '/Users/joksina/Documents/Risk Management/public',
+7 verbose install   [ 'angular',
+7 verbose install     'angular-route',
+7 verbose install     'angular-ui-router',
+7 verbose install     'angular-material',
+7 verbose install     'angular-mocks',
+7 verbose install     'angular-chart.js',
+7 verbose install     'Chart.js',
+7 verbose install     'angularjs-slider' ] ]
+8 verbose install where, peers [ '/Users/joksina/Documents/Risk Management/public', [] ]
+9 verbose installManyTop reading for lifecycle /Users/joksina/Documents/Risk Management/public/package.json
+10 info preinstall risk-management@1.0.0
+11 verbose readDependencies loading dependencies from /Users/joksina/Documents/Risk Management/public/package.json
+12 silly cache add args [ 'angular-route@latest', null ]
+13 verbose cache add spec angular-route@latest
+14 silly cache add args [ 'angular-ui-router@~0.2.15', null ]
+15 verbose cache add spec angular-ui-router@~0.2.15
+16 silly cache add parsed spec Result {
+16 silly cache add   raw: 'angular-ui-router@~0.2.15',
+16 silly cache add   scope: null,
+16 silly cache add   name: 'angular-ui-router',
+16 silly cache add   rawSpec: '~0.2.15',
+16 silly cache add   spec: '>=0.2.15 <0.3.0',
+16 silly cache add   type: 'range' }
+17 silly addNamed angular-ui-router@>=0.2.15 <0.3.0
+18 verbose addNamed ">=0.2.15 <0.3.0" is a valid semver range for angular-ui-router
+19 silly addNameRange { name: 'angular-ui-router',
+19 silly addNameRange   range: '>=0.2.15 <0.3.0',
+19 silly addNameRange   hasData: false }
+20 silly mapToRegistry name angular-ui-router
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry uri https://registry.npmjs.org/angular-ui-router
+24 verbose addNameRange registry:https://registry.npmjs.org/angular-ui-router not in flight; fetching
+25 silly cache add args [ 'angular-material@~1.0.3', null ]
+26 verbose cache add spec angular-material@~1.0.3
+27 silly cache add parsed spec Result {
+27 silly cache add   raw: 'angular-material@~1.0.3',
+27 silly cache add   scope: null,
+27 silly cache add   name: 'angular-material',
+27 silly cache add   rawSpec: '~1.0.3',
+27 silly cache add   spec: '>=1.0.3 <1.1.0',
+27 silly cache add   type: 'range' }
+28 silly addNamed angular-material@>=1.0.3 <1.1.0
+29 verbose addNamed ">=1.0.3 <1.1.0" is a valid semver range for angular-material
+30 silly addNameRange { name: 'angular-material',
+30 silly addNameRange   range: '>=1.0.3 <1.1.0',
+30 silly addNameRange   hasData: false }
+31 silly mapToRegistry name angular-material
+32 silly mapToRegistry using default registry
+33 silly mapToRegistry registry https://registry.npmjs.org/
+34 silly mapToRegistry uri https://registry.npmjs.org/angular-material
+35 verbose addNameRange registry:https://registry.npmjs.org/angular-material not in flight; fetching
+36 silly cache add args [ 'angular-mocks@~1.4.9', null ]
+37 verbose cache add spec angular-mocks@~1.4.9
+38 silly cache add parsed spec Result {
+38 silly cache add   raw: 'angular-mocks@~1.4.9',
+38 silly cache add   scope: null,
+38 silly cache add   name: 'angular-mocks',
+38 silly cache add   rawSpec: '~1.4.9',
+38 silly cache add   spec: '>=1.4.9 <1.5.0',
+38 silly cache add   type: 'range' }
+39 silly addNamed angular-mocks@>=1.4.9 <1.5.0
+40 verbose addNamed ">=1.4.9 <1.5.0" is a valid semver range for angular-mocks
+41 silly addNameRange { name: 'angular-mocks',
+41 silly addNameRange   range: '>=1.4.9 <1.5.0',
+41 silly addNameRange   hasData: false }
+42 silly mapToRegistry name angular-mocks
+43 silly mapToRegistry using default registry
+44 silly mapToRegistry registry https://registry.npmjs.org/
+45 silly mapToRegistry uri https://registry.npmjs.org/angular-mocks
+46 verbose addNameRange registry:https://registry.npmjs.org/angular-mocks not in flight; fetching
+47 silly cache add args [ 'angular-chart.js@~0.8.8', null ]
+48 verbose cache add spec angular-chart.js@~0.8.8
+49 silly cache add parsed spec Result {
+49 silly cache add   raw: 'angular-chart.js@~0.8.8',
+49 silly cache add   scope: null,
+49 silly cache add   name: 'angular-chart.js',
+49 silly cache add   rawSpec: '~0.8.8',
+49 silly cache add   spec: '>=0.8.8 <0.9.0',
+49 silly cache add   type: 'range' }
+50 silly addNamed angular-chart.js@>=0.8.8 <0.9.0
+51 verbose addNamed ">=0.8.8 <0.9.0" is a valid semver range for angular-chart.js
+52 silly addNameRange { name: 'angular-chart.js',
+52 silly addNameRange   range: '>=0.8.8 <0.9.0',
+52 silly addNameRange   hasData: false }
+53 silly mapToRegistry name angular-chart.js
+54 silly mapToRegistry using default registry
+55 silly mapToRegistry registry https://registry.npmjs.org/
+56 silly mapToRegistry uri https://registry.npmjs.org/angular-chart.js
+57 verbose addNameRange registry:https://registry.npmjs.org/angular-chart.js not in flight; fetching
+58 silly cache add args [ 'Chart.js@~1.0.2', null ]
+59 verbose cache add spec Chart.js@~1.0.2
+60 silly cache add parsed spec Result {
+60 silly cache add   raw: 'Chart.js@~1.0.2',
+60 silly cache add   scope: null,
+60 silly cache add   name: 'Chart.js',
+60 silly cache add   rawSpec: '~1.0.2',
+60 silly cache add   spec: '>=1.0.2 <1.1.0',
+60 silly cache add   type: 'range' }
+61 silly addNamed Chart.js@>=1.0.2 <1.1.0
+62 verbose addNamed ">=1.0.2 <1.1.0" is a valid semver range for Chart.js
+63 silly addNameRange { name: 'Chart.js', range: '>=1.0.2 <1.1.0', hasData: false }
+64 silly mapToRegistry name Chart.js
+65 silly mapToRegistry using default registry
+66 silly mapToRegistry registry https://registry.npmjs.org/
+67 silly mapToRegistry uri https://registry.npmjs.org/Chart.js
+68 verbose addNameRange registry:https://registry.npmjs.org/Chart.js not in flight; fetching
+69 silly cache add args [ 'angularjs-slider@~2.10.2', null ]
+70 verbose cache add spec angularjs-slider@~2.10.2
+71 silly cache add parsed spec Result {
+71 silly cache add   raw: 'angularjs-slider@~2.10.2',
+71 silly cache add   scope: null,
+71 silly cache add   name: 'angularjs-slider',
+71 silly cache add   rawSpec: '~2.10.2',
+71 silly cache add   spec: '>=2.10.2 <2.11.0',
+71 silly cache add   type: 'range' }
+72 silly addNamed angularjs-slider@>=2.10.2 <2.11.0
+73 verbose addNamed ">=2.10.2 <2.11.0" is a valid semver range for angularjs-slider
+74 silly addNameRange { name: 'angularjs-slider',
+74 silly addNameRange   range: '>=2.10.2 <2.11.0',
+74 silly addNameRange   hasData: false }
+75 silly mapToRegistry name angularjs-slider
+76 silly mapToRegistry using default registry
+77 silly mapToRegistry registry https://registry.npmjs.org/
+78 silly mapToRegistry uri https://registry.npmjs.org/angularjs-slider
+79 verbose addNameRange registry:https://registry.npmjs.org/angularjs-slider not in flight; fetching
+80 silly cache add args [ 'angular@latest', null ]
+81 verbose cache add spec angular@latest
+82 silly cache add parsed spec Result {
+82 silly cache add   raw: 'angular-route@latest',
+82 silly cache add   scope: null,
+82 silly cache add   name: 'angular-route',
+82 silly cache add   rawSpec: 'latest',
+82 silly cache add   spec: 'latest',
+82 silly cache add   type: 'tag' }
+83 silly addNamed angular-route@latest
+84 verbose addNamed "latest" is being treated as a dist-tag for angular-route
+85 info addNameTag [ 'angular-route', 'latest' ]
+86 silly mapToRegistry name angular-route
+87 silly mapToRegistry using default registry
+88 silly mapToRegistry registry https://registry.npmjs.org/
+89 silly mapToRegistry uri https://registry.npmjs.org/angular-route
+90 verbose addNameTag registry:https://registry.npmjs.org/angular-route not in flight; fetching
+91 verbose request uri https://registry.npmjs.org/angular-ui-router
+92 verbose request no auth needed
+93 info attempt registry request try #1 at 7:14:17 PM
+94 verbose request id 52cd34374c84fb1d
+95 http request GET https://registry.npmjs.org/angular-ui-router
+96 verbose request uri https://registry.npmjs.org/angular-material
+97 verbose request no auth needed
+98 info attempt registry request try #1 at 7:14:17 PM
+99 http request GET https://registry.npmjs.org/angular-material
+100 verbose request uri https://registry.npmjs.org/angular-mocks
+101 verbose request no auth needed
+102 info attempt registry request try #1 at 7:14:17 PM
+103 http request GET https://registry.npmjs.org/angular-mocks
+104 verbose request uri https://registry.npmjs.org/angular-chart.js
+105 verbose request no auth needed
+106 info attempt registry request try #1 at 7:14:17 PM
+107 http request GET https://registry.npmjs.org/angular-chart.js
+108 silly cache add parsed spec Result {
+108 silly cache add   raw: 'angular@latest',
+108 silly cache add   scope: null,
+108 silly cache add   name: 'angular',
+108 silly cache add   rawSpec: 'latest',
+108 silly cache add   spec: 'latest',
+108 silly cache add   type: 'tag' }
+109 silly addNamed angular@latest
+110 verbose addNamed "latest" is being treated as a dist-tag for angular
+111 info addNameTag [ 'angular', 'latest' ]
+112 silly mapToRegistry name angular
+113 silly mapToRegistry using default registry
+114 silly mapToRegistry registry https://registry.npmjs.org/
+115 silly mapToRegistry uri https://registry.npmjs.org/angular
+116 verbose addNameTag registry:https://registry.npmjs.org/angular not in flight; fetching
+117 verbose request uri https://registry.npmjs.org/Chart.js
+118 verbose request no auth needed
+119 info attempt registry request try #1 at 7:14:17 PM
+120 http request GET https://registry.npmjs.org/Chart.js
+121 verbose request uri https://registry.npmjs.org/angularjs-slider
+122 verbose request no auth needed
+123 info attempt registry request try #1 at 7:14:17 PM
+124 http request GET https://registry.npmjs.org/angularjs-slider
+125 verbose request uri https://registry.npmjs.org/angular-route
+126 verbose request no auth needed
+127 info attempt registry request try #1 at 7:14:17 PM
+128 http request GET https://registry.npmjs.org/angular-route
+129 verbose request uri https://registry.npmjs.org/angular
+130 verbose request no auth needed
+131 info attempt registry request try #1 at 7:14:17 PM
+132 http request GET https://registry.npmjs.org/angular
+133 http 200 https://registry.npmjs.org/angular-ui-router
+134 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+134 verbose headers   etag: '"2K756Y8NF6OD8T2F50HOKF28H"',
+134 verbose headers   'content-type': 'application/json',
+134 verbose headers   'cache-control': 'max-age=300',
+134 verbose headers   'content-length': '33987',
+134 verbose headers   'accept-ranges': 'bytes',
+134 verbose headers   date: 'Tue, 15 Mar 2016 02:14:17 GMT',
+134 verbose headers   via: '1.1 varnish',
+134 verbose headers   age: '190',
+134 verbose headers   connection: 'keep-alive',
+134 verbose headers   'x-served-by': 'cache-iad2125-IAD',
+134 verbose headers   'x-cache': 'HIT',
+134 verbose headers   'x-cache-hits': '1',
+134 verbose headers   'x-timer': 'S1458008057.815967,VS0,VE0',
+134 verbose headers   vary: 'Accept' }
+135 silly get cb [ 200,
+135 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+135 silly get     etag: '"2K756Y8NF6OD8T2F50HOKF28H"',
+135 silly get     'content-type': 'application/json',
+135 silly get     'cache-control': 'max-age=300',
+135 silly get     'content-length': '33987',
+135 silly get     'accept-ranges': 'bytes',
+135 silly get     date: 'Tue, 15 Mar 2016 02:14:17 GMT',
+135 silly get     via: '1.1 varnish',
+135 silly get     age: '190',
+135 silly get     connection: 'keep-alive',
+135 silly get     'x-served-by': 'cache-iad2125-IAD',
+135 silly get     'x-cache': 'HIT',
+135 silly get     'x-cache-hits': '1',
+135 silly get     'x-timer': 'S1458008057.815967,VS0,VE0',
+135 silly get     vary: 'Accept' } ]
+136 verbose get saving angular-ui-router to /Users/joksina/.npm/registry.npmjs.org/angular-ui-router/.cache.json
+137 silly addNameRange number 2 { name: 'angular-ui-router',
+137 silly addNameRange   range: '>=0.2.15 <0.3.0',
+137 silly addNameRange   hasData: true }
+138 silly addNameRange versions [ 'angular-ui-router',
+138 silly addNameRange   [ '0.2.7',
+138 silly addNameRange     '0.2.8',
+138 silly addNameRange     '0.2.10',
+138 silly addNameRange     '0.2.11',
+138 silly addNameRange     '0.2.13',
+138 silly addNameRange     '0.2.14',
+138 silly addNameRange     '0.2.15',
+138 silly addNameRange     '1.0.0-alpha0',
+138 silly addNameRange     '0.2.16',
+138 silly addNameRange     '0.2.17',
+138 silly addNameRange     '0.2.18' ] ]
+139 silly addNamed angular-ui-router@0.2.18
+140 verbose addNamed "0.2.18" is a plain semver version for angular-ui-router
+141 silly mapToRegistry name angular-ui-router
+142 silly mapToRegistry using default registry
+143 silly mapToRegistry registry https://registry.npmjs.org/
+144 silly mapToRegistry uri https://registry.npmjs.org/angular-ui-router
+145 verbose addRemoteTarball https://registry.npmjs.org/angular-ui-router/-/angular-ui-router-0.2.18.tgz not in flight; adding
+146 verbose addRemoteTarball [ 'https://registry.npmjs.org/angular-ui-router/-/angular-ui-router-0.2.18.tgz',
+146 verbose addRemoteTarball   '1dad70415c73d7046fd2e130df03d62fb7464360' ]
+147 info retry fetch attempt 1 at 7:14:17 PM
+148 info attempt registry request try #1 at 7:14:17 PM
+149 http fetch GET https://registry.npmjs.org/angular-ui-router/-/angular-ui-router-0.2.18.tgz
+150 http 404 https://registry.npmjs.org/Chart.js
+151 verbose headers { 'content-type': 'application/json',
+151 verbose headers   'cache-control': 'max-age=0',
+151 verbose headers   'content-length': '2',
+151 verbose headers   'accept-ranges': 'bytes',
+151 verbose headers   date: 'Tue, 15 Mar 2016 02:14:17 GMT',
+151 verbose headers   via: '1.1 varnish',
+151 verbose headers   age: '0',
+151 verbose headers   connection: 'keep-alive',
+151 verbose headers   'x-served-by': 'cache-iad2141-IAD',
+151 verbose headers   'x-cache': 'MISS',
+151 verbose headers   'x-cache-hits': '0',
+151 verbose headers   'x-timer': 'S1458008057.824632,VS0,VE102' }
+152 silly get cb [ 404,
+152 silly get   { 'content-type': 'application/json',
+152 silly get     'cache-control': 'max-age=0',
+152 silly get     'content-length': '2',
+152 silly get     'accept-ranges': 'bytes',
+152 silly get     date: 'Tue, 15 Mar 2016 02:14:17 GMT',
+152 silly get     via: '1.1 varnish',
+152 silly get     age: '0',
+152 silly get     connection: 'keep-alive',
+152 silly get     'x-served-by': 'cache-iad2141-IAD',
+152 silly get     'x-cache': 'MISS',
+152 silly get     'x-cache-hits': '0',
+152 silly get     'x-timer': 'S1458008057.824632,VS0,VE102' } ]
+153 http 200 https://registry.npmjs.org/angular-material
+154 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+154 verbose headers   etag: '"7LT0UMCD6J07RAX4KBI51NTIK"',
+154 verbose headers   'content-type': 'application/json',
+154 verbose headers   'cache-control': 'max-age=300',
+154 verbose headers   'content-length': '47689',
+154 verbose headers   'accept-ranges': 'bytes',
+154 verbose headers   date: 'Tue, 15 Mar 2016 02:14:17 GMT',
+154 verbose headers   via: '1.1 varnish',
+154 verbose headers   age: '190',
+154 verbose headers   connection: 'keep-alive',
+154 verbose headers   'x-served-by': 'cache-iad2143-IAD',
+154 verbose headers   'x-cache': 'HIT',
+154 verbose headers   'x-cache-hits': '1',
+154 verbose headers   'x-timer': 'S1458008057.815832,VS0,VE0',
+154 verbose headers   vary: 'Accept' }
+155 silly get cb [ 200,
+155 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+155 silly get     etag: '"7LT0UMCD6J07RAX4KBI51NTIK"',
+155 silly get     'content-type': 'application/json',
+155 silly get     'cache-control': 'max-age=300',
+155 silly get     'content-length': '47689',
+155 silly get     'accept-ranges': 'bytes',
+155 silly get     date: 'Tue, 15 Mar 2016 02:14:17 GMT',
+155 silly get     via: '1.1 varnish',
+155 silly get     age: '190',
+155 silly get     connection: 'keep-alive',
+155 silly get     'x-served-by': 'cache-iad2143-IAD',
+155 silly get     'x-cache': 'HIT',
+155 silly get     'x-cache-hits': '1',
+155 silly get     'x-timer': 'S1458008057.815832,VS0,VE0',
+155 silly get     vary: 'Accept' } ]
+156 verbose get saving angular-material to /Users/joksina/.npm/registry.npmjs.org/angular-material/.cache.json
+157 http 200 https://registry.npmjs.org/angular-route
+158 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+158 verbose headers   etag: '"8FW2P8PV6ZCOUN09TBLCXIUNU"',
+158 verbose headers   'content-type': 'application/json',
+158 verbose headers   'cache-control': 'max-age=300',
+158 verbose headers   'content-length': '63691',
+158 verbose headers   'accept-ranges': 'bytes',
+158 verbose headers   date: 'Tue, 15 Mar 2016 02:14:17 GMT',
+158 verbose headers   via: '1.1 varnish',
+158 verbose headers   age: '21',
+158 verbose headers   connection: 'keep-alive',
+158 verbose headers   'x-served-by': 'cache-iad2138-IAD',
+158 verbose headers   'x-cache': 'HIT',
+158 verbose headers   'x-cache-hits': '1',
+158 verbose headers   'x-timer': 'S1458008057.818742,VS0,VE0',
+158 verbose headers   vary: 'Accept' }
+159 silly get cb [ 200,
+159 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+159 silly get     etag: '"8FW2P8PV6ZCOUN09TBLCXIUNU"',
+159 silly get     'content-type': 'application/json',
+159 silly get     'cache-control': 'max-age=300',
+159 silly get     'content-length': '63691',
+159 silly get     'accept-ranges': 'bytes',
+159 silly get     date: 'Tue, 15 Mar 2016 02:14:17 GMT',
+159 silly get     via: '1.1 varnish',
+159 silly get     age: '21',
+159 silly get     connection: 'keep-alive',
+159 silly get     'x-served-by': 'cache-iad2138-IAD',
+159 silly get     'x-cache': 'HIT',
+159 silly get     'x-cache-hits': '1',
+159 silly get     'x-timer': 'S1458008057.818742,VS0,VE0',
+159 silly get     vary: 'Accept' } ]
+160 verbose get saving angular-route to /Users/joksina/.npm/registry.npmjs.org/angular-route/.cache.json
+161 silly addNameRange number 2 { name: 'angular-material',
+161 silly addNameRange   range: '>=1.0.3 <1.1.0',
+161 silly addNameRange   hasData: true }
+162 silly addNameRange versions [ 'angular-material',
+162 silly addNameRange   [ '0.7.1',
+162 silly addNameRange     '0.8.0',
+162 silly addNameRange     '0.8.1',
+162 silly addNameRange     '0.8.2',
+162 silly addNameRange     '0.8.3',
+162 silly addNameRange     '0.9.2',
+162 silly addNameRange     '0.9.3',
+162 silly addNameRange     '0.9.4',
+162 silly addNameRange     '0.9.5',
+162 silly addNameRange     '0.9.6',
+162 silly addNameRange     '0.9.7',
+162 silly addNameRange     '0.9.8',
+162 silly addNameRange     '0.10.0',
+162 silly addNameRange     '0.10.1',
+162 silly addNameRange     '0.11.0',
+162 silly addNameRange     '0.11.1',
+162 silly addNameRange     '0.11.2',
+162 silly addNameRange     '0.11.3',
+162 silly addNameRange     '0.11.4',
+162 silly addNameRange     '1.0.0',
+162 silly addNameRange     '1.0.1',
+162 silly addNameRange     '1.0.2',
+162 silly addNameRange     '1.0.4',
+162 silly addNameRange     '1.0.5',
+162 silly addNameRange     '1.0.6' ] ]
+163 silly addNamed angular-material@1.0.6
+164 verbose addNamed "1.0.6" is a plain semver version for angular-material
+165 http 200 https://registry.npmjs.org/angular-chart.js
+166 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+166 verbose headers   etag: '"8EIB9QU97KB3VL3NN8I0AM83W"',
+166 verbose headers   'content-type': 'application/json',
+166 verbose headers   'cache-control': 'max-age=300',
+166 verbose headers   'content-length': '52104',
+166 verbose headers   'accept-ranges': 'bytes',
+166 verbose headers   date: 'Tue, 15 Mar 2016 02:14:17 GMT',
+166 verbose headers   via: '1.1 varnish',
+166 verbose headers   age: '0',
+166 verbose headers   connection: 'keep-alive',
+166 verbose headers   'x-served-by': 'cache-iad2146-IAD',
+166 verbose headers   'x-cache': 'HIT',
+166 verbose headers   'x-cache-hits': '1',
+166 verbose headers   'x-timer': 'S1458008057.813120,VS0,VE18',
+166 verbose headers   vary: 'Accept' }
+167 silly get cb [ 200,
+167 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+167 silly get     etag: '"8EIB9QU97KB3VL3NN8I0AM83W"',
+167 silly get     'content-type': 'application/json',
+167 silly get     'cache-control': 'max-age=300',
+167 silly get     'content-length': '52104',
+167 silly get     'accept-ranges': 'bytes',
+167 silly get     date: 'Tue, 15 Mar 2016 02:14:17 GMT',
+167 silly get     via: '1.1 varnish',
+167 silly get     age: '0',
+167 silly get     connection: 'keep-alive',
+167 silly get     'x-served-by': 'cache-iad2146-IAD',
+167 silly get     'x-cache': 'HIT',
+167 silly get     'x-cache-hits': '1',
+167 silly get     'x-timer': 'S1458008057.813120,VS0,VE18',
+167 silly get     vary: 'Accept' } ]
+168 verbose get saving angular-chart.js to /Users/joksina/.npm/registry.npmjs.org/angular-chart.js/.cache.json
+169 silly mapToRegistry name angular-material
+170 silly mapToRegistry using default registry
+171 silly mapToRegistry registry https://registry.npmjs.org/
+172 silly mapToRegistry uri https://registry.npmjs.org/angular-material
+173 verbose addRemoteTarball https://registry.npmjs.org/angular-material/-/angular-material-1.0.6.tgz not in flight; adding
+174 verbose addRemoteTarball [ 'https://registry.npmjs.org/angular-material/-/angular-material-1.0.6.tgz',
+174 verbose addRemoteTarball   'd138857c733d67378e7a47dbd3c2b8913401de97' ]
+175 info retry fetch attempt 1 at 7:14:17 PM
+176 info attempt registry request try #1 at 7:14:17 PM
+177 http fetch GET https://registry.npmjs.org/angular-material/-/angular-material-1.0.6.tgz
+178 silly addNameTag next cb for angular-route with tag latest
+179 silly addNamed angular-route@1.5.0
+180 verbose addNamed "1.5.0" is a plain semver version for angular-route
+181 silly mapToRegistry name angular-route
+182 silly mapToRegistry using default registry
+183 silly mapToRegistry registry https://registry.npmjs.org/
+184 silly mapToRegistry uri https://registry.npmjs.org/angular-route
+185 verbose addRemoteTarball https://registry.npmjs.org/angular-route/-/angular-route-1.5.0.tgz not in flight; adding
+186 verbose addRemoteTarball [ 'https://registry.npmjs.org/angular-route/-/angular-route-1.5.0.tgz',
+186 verbose addRemoteTarball   'd6f94f58fbe80f8ac0ef3c44753c20c424db6c33' ]
+187 silly addNameRange number 2 { name: 'angular-chart.js',
+187 silly addNameRange   range: '>=0.8.8 <0.9.0',
+187 silly addNameRange   hasData: true }
+188 silly addNameRange versions [ 'angular-chart.js',
+188 silly addNameRange   [ '0.4.2',
+188 silly addNameRange     '0.5.0',
+188 silly addNameRange     '0.5.1',
+188 silly addNameRange     '0.5.2',
+188 silly addNameRange     '0.5.3',
+188 silly addNameRange     '0.6.0',
+188 silly addNameRange     '0.7.0',
+188 silly addNameRange     '0.7.1',
+188 silly addNameRange     '0.7.2',
+188 silly addNameRange     '0.7.3',
+188 silly addNameRange     '0.7.4',
+188 silly addNameRange     '0.7.5',
+188 silly addNameRange     '0.7.6',
+188 silly addNameRange     '0.8.0',
+188 silly addNameRange     '0.8.1',
+188 silly addNameRange     '0.8.2',
+188 silly addNameRange     '0.8.3',
+188 silly addNameRange     '0.8.4',
+188 silly addNameRange     '0.8.5',
+188 silly addNameRange     '0.8.6',
+188 silly addNameRange     '0.8.7',
+188 silly addNameRange     '0.8.8',
+188 silly addNameRange     '1.0.0-alpha1',
+188 silly addNameRange     '0.8.9',
+188 silly addNameRange     '0.9.0' ] ]
+189 silly addNamed angular-chart.js@0.8.9
+190 verbose addNamed "0.8.9" is a plain semver version for angular-chart.js
+191 info retry fetch attempt 1 at 7:14:18 PM
+192 info attempt registry request try #1 at 7:14:18 PM
+193 http fetch GET https://registry.npmjs.org/angular-route/-/angular-route-1.5.0.tgz
+194 silly mapToRegistry name angular-chart.js
+195 silly mapToRegistry using default registry
+196 silly mapToRegistry registry https://registry.npmjs.org/
+197 silly mapToRegistry uri https://registry.npmjs.org/angular-chart.js
+198 verbose addRemoteTarball https://registry.npmjs.org/angular-chart.js/-/angular-chart.js-0.8.9.tgz not in flight; adding
+199 verbose addRemoteTarball [ 'https://registry.npmjs.org/angular-chart.js/-/angular-chart.js-0.8.9.tgz',
+199 verbose addRemoteTarball   'd08d172cc08e28b3372ea2de4c83c0be81165483' ]
+200 info retry fetch attempt 1 at 7:14:18 PM
+201 info attempt registry request try #1 at 7:14:18 PM
+202 http fetch GET https://registry.npmjs.org/angular-chart.js/-/angular-chart.js-0.8.9.tgz
+203 http 200 https://registry.npmjs.org/angular
+204 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+204 verbose headers   etag: '"E5ZFHRV04U32IK387QGLF3LU7"',
+204 verbose headers   'content-type': 'application/json',
+204 verbose headers   'cache-control': 'max-age=300',
+204 verbose headers   'content-length': '117527',
+204 verbose headers   'accept-ranges': 'bytes',
+204 verbose headers   date: 'Tue, 15 Mar 2016 02:14:17 GMT',
+204 verbose headers   via: '1.1 varnish',
+204 verbose headers   age: '190',
+204 verbose headers   connection: 'keep-alive',
+204 verbose headers   'x-served-by': 'cache-iad2136-IAD',
+204 verbose headers   'x-cache': 'HIT',
+204 verbose headers   'x-cache-hits': '1',
+204 verbose headers   'x-timer': 'S1458008057.818758,VS0,VE1',
+204 verbose headers   vary: 'Accept' }
+205 silly get cb [ 200,
+205 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+205 silly get     etag: '"E5ZFHRV04U32IK387QGLF3LU7"',
+205 silly get     'content-type': 'application/json',
+205 silly get     'cache-control': 'max-age=300',
+205 silly get     'content-length': '117527',
+205 silly get     'accept-ranges': 'bytes',
+205 silly get     date: 'Tue, 15 Mar 2016 02:14:17 GMT',
+205 silly get     via: '1.1 varnish',
+205 silly get     age: '190',
+205 silly get     connection: 'keep-alive',
+205 silly get     'x-served-by': 'cache-iad2136-IAD',
+205 silly get     'x-cache': 'HIT',
+205 silly get     'x-cache-hits': '1',
+205 silly get     'x-timer': 'S1458008057.818758,VS0,VE1',
+205 silly get     vary: 'Accept' } ]
+206 verbose get saving angular to /Users/joksina/.npm/registry.npmjs.org/angular/.cache.json
+207 silly addNameTag next cb for angular with tag latest
+208 silly addNamed angular@1.5.0
+209 verbose addNamed "1.5.0" is a plain semver version for angular
+210 silly mapToRegistry name angular
+211 silly mapToRegistry using default registry
+212 silly mapToRegistry registry https://registry.npmjs.org/
+213 silly mapToRegistry uri https://registry.npmjs.org/angular
+214 verbose addRemoteTarball https://registry.npmjs.org/angular/-/angular-1.5.0.tgz not in flight; adding
+215 verbose addRemoteTarball [ 'https://registry.npmjs.org/angular/-/angular-1.5.0.tgz',
+215 verbose addRemoteTarball   'd96ee97ab6df6cfd0915accbee484d098adb74ec' ]
+216 info retry fetch attempt 1 at 7:14:18 PM
+217 info attempt registry request try #1 at 7:14:18 PM
+218 http fetch GET https://registry.npmjs.org/angular/-/angular-1.5.0.tgz
+219 http fetch 200 https://registry.npmjs.org/angular-ui-router/-/angular-ui-router-0.2.18.tgz
+220 http fetch 200 https://registry.npmjs.org/angular-material/-/angular-material-1.0.6.tgz
+221 http fetch 200 https://registry.npmjs.org/angular-route/-/angular-route-1.5.0.tgz
+222 silly fetchAndShaCheck shasum d6f94f58fbe80f8ac0ef3c44753c20c424db6c33
+223 verbose addTmpTarball /var/folders/24/476g2kh57gq39lq5m09wnsbh0000gn/T/npm-31836-e71a5791/registry.npmjs.org/angular-route/-/angular-route-1.5.0.tgz not in flight; adding
+224 verbose addTmpTarball already have metadata; skipping unpack for angular-route@1.5.0
+225 http fetch 200 https://registry.npmjs.org/angular-chart.js/-/angular-chart.js-0.8.9.tgz
+226 silly cache afterAdd angular-route@1.5.0
+227 verbose afterAdd /Users/joksina/.npm/angular-route/1.5.0/package/package.json not in flight; writing
+228 verbose afterAdd /Users/joksina/.npm/angular-route/1.5.0/package/package.json written
+229 http fetch 200 https://registry.npmjs.org/angular/-/angular-1.5.0.tgz
+230 http 200 https://registry.npmjs.org/angular-mocks
+231 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+231 verbose headers   etag: '"49C3V5U3N90ESKA96LZBJCFBV"',
+231 verbose headers   'content-type': 'application/json',
+231 verbose headers   'cache-control': 'max-age=300',
+231 verbose headers   'content-length': '69750',
+231 verbose headers   'accept-ranges': 'bytes',
+231 verbose headers   date: 'Tue, 15 Mar 2016 02:14:18 GMT',
+231 verbose headers   via: '1.1 varnish',
+231 verbose headers   age: '0',
+231 verbose headers   connection: 'keep-alive',
+231 verbose headers   'x-served-by': 'cache-iad2139-IAD',
+231 verbose headers   'x-cache': 'HIT',
+231 verbose headers   'x-cache-hits': '1',
+231 verbose headers   'x-timer': 'S1458008057.816533,VS0,VE400',
+231 verbose headers   vary: 'Accept' }
+232 silly get cb [ 200,
+232 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+232 silly get     etag: '"49C3V5U3N90ESKA96LZBJCFBV"',
+232 silly get     'content-type': 'application/json',
+232 silly get     'cache-control': 'max-age=300',
+232 silly get     'content-length': '69750',
+232 silly get     'accept-ranges': 'bytes',
+232 silly get     date: 'Tue, 15 Mar 2016 02:14:18 GMT',
+232 silly get     via: '1.1 varnish',
+232 silly get     age: '0',
+232 silly get     connection: 'keep-alive',
+232 silly get     'x-served-by': 'cache-iad2139-IAD',
+232 silly get     'x-cache': 'HIT',
+232 silly get     'x-cache-hits': '1',
+232 silly get     'x-timer': 'S1458008057.816533,VS0,VE400',
+232 silly get     vary: 'Accept' } ]
+233 verbose get saving angular-mocks to /Users/joksina/.npm/registry.npmjs.org/angular-mocks/.cache.json
+234 http 200 https://registry.npmjs.org/angularjs-slider
+235 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+235 verbose headers   etag: '"3PD3H70SLPP7DCQO9SXX5HS52"',
+235 verbose headers   'content-type': 'application/json',
+235 verbose headers   'cache-control': 'max-age=300',
+235 verbose headers   'content-length': '50359',
+235 verbose headers   'accept-ranges': 'bytes',
+235 verbose headers   date: 'Tue, 15 Mar 2016 02:14:18 GMT',
+235 verbose headers   via: '1.1 varnish',
+235 verbose headers   age: '0',
+235 verbose headers   connection: 'keep-alive',
+235 verbose headers   'x-served-by': 'cache-iad2130-IAD',
+235 verbose headers   'x-cache': 'MISS',
+235 verbose headers   'x-cache-hits': '0',
+235 verbose headers   'x-timer': 'S1458008057.822006,VS0,VE394',
+235 verbose headers   vary: 'Accept' }
+236 silly get cb [ 200,
+236 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+236 silly get     etag: '"3PD3H70SLPP7DCQO9SXX5HS52"',
+236 silly get     'content-type': 'application/json',
+236 silly get     'cache-control': 'max-age=300',
+236 silly get     'content-length': '50359',
+236 silly get     'accept-ranges': 'bytes',
+236 silly get     date: 'Tue, 15 Mar 2016 02:14:18 GMT',
+236 silly get     via: '1.1 varnish',
+236 silly get     age: '0',
+236 silly get     connection: 'keep-alive',
+236 silly get     'x-served-by': 'cache-iad2130-IAD',
+236 silly get     'x-cache': 'MISS',
+236 silly get     'x-cache-hits': '0',
+236 silly get     'x-timer': 'S1458008057.822006,VS0,VE394',
+236 silly get     vary: 'Accept' } ]
+237 verbose get saving angularjs-slider to /Users/joksina/.npm/registry.npmjs.org/angularjs-slider/.cache.json
+238 silly fetchAndShaCheck shasum 1dad70415c73d7046fd2e130df03d62fb7464360
+239 silly addNameRange number 2 { name: 'angular-mocks', range: '>=1.4.9 <1.5.0', hasData: true }
+240 silly addNameRange versions [ 'angular-mocks',
+240 silly addNameRange   [ '1.2.18',
+240 silly addNameRange     '1.2.19',
+240 silly addNameRange     '1.2.20',
+240 silly addNameRange     '1.2.21',
+240 silly addNameRange     '1.2.22',
+240 silly addNameRange     '1.2.25',
+240 silly addNameRange     '1.3.0-rc.5',
+240 silly addNameRange     '1.3.0',
+240 silly addNameRange     '1.3.1',
+240 silly addNameRange     '1.3.2',
+240 silly addNameRange     '1.3.3',
+240 silly addNameRange     '1.3.4-build.3588',
+240 silly addNameRange     '1.2.27',
+240 silly addNameRange     '1.3.4',
+240 silly addNameRange     '1.3.5',
+240 silly addNameRange     '1.3.6',
+240 silly addNameRange     '1.3.7',
+240 silly addNameRange     '1.2.28',
+240 silly addNameRange     '1.3.8',
+240 silly addNameRange     '1.4.0-beta.0',
+240 silly addNameRange     '1.3.9',
+240 silly addNameRange     '1.3.10',
+240 silly addNameRange     '1.4.0-beta.1',
+240 silly addNameRange     '1.4.0-beta.2',
+240 silly addNameRange     '1.3.11',
+240 silly addNameRange     '1.4.0-beta.3',
+240 silly addNameRange     '1.3.12',
+240 silly addNameRange     '1.3.13',
+240 silly addNameRange     '1.4.0-beta.4',
+240 silly addNameRange     '1.3.14',
+240 silly addNameRange     '1.4.0-beta.5',
+240 silly addNameRange     '1.4.0-beta.6',
+240 silly addNameRange     '1.3.15',
+240 silly addNameRange     '1.4.0-rc.0',
+240 silly addNameRange     '1.4.0-rc.1',
+240 silly addNameRange     '1.4.0-rc.2',
+240 silly addNameRange     '1.4.0',
+240 silly addNameRange     '1.3.16',
+240 silly addNameRange     '1.4.1',
+240 silly addNameRange     '1.4.2',
+240 silly addNameRange     '1.3.17',
+240 silly addNameRange     '1.4.3',
+240 silly addNameRange     '1.4.4',
+240 silly addNameRange     '1.3.18',
+240 silly addNameRange     '1.4.5',
+240 silly addNameRange     '1.3.19',
+240 silly addNameRange     '1.4.6',
+240 silly addNameRange     '1.5.0-beta.0',
+240 silly addNameRange     '1.2.29',
+240 silly addNameRange     '1.3.20',
+240 silly addNameRange     '1.4.7',
+240 silly addNameRange     '1.5.0-beta.2',
+240 silly addNameRange     '1.4.8',
+240 silly addNameRange     '1.5.0-rc.0',
+240 silly addNameRange     '1.5.0-rc.1',
+240 silly addNameRange     '1.4.9',
+240 silly addNameRange     '1.5.0-rc.2',
+240 silly addNameRange     '1.5.0' ] ]
+241 silly addNamed angular-mocks@1.4.9
+242 verbose addNamed "1.4.9" is a plain semver version for angular-mocks
+243 silly addNameRange number 2 { name: 'angularjs-slider',
+243 silly addNameRange   range: '>=2.10.2 <2.11.0',
+243 silly addNameRange   hasData: true }
+244 silly addNameRange versions [ 'angularjs-slider',
+244 silly addNameRange   [ '1.0.0',
+244 silly addNameRange     '1.1.0',
+244 silly addNameRange     '2.0.0',
+244 silly addNameRange     '2.1.0',
+244 silly addNameRange     '2.2.0',
+244 silly addNameRange     '2.3.0',
+244 silly addNameRange     '2.4.0',
+244 silly addNameRange     '2.4.1',
+244 silly addNameRange     '2.5.0',
+244 silly addNameRange     '2.6.0',
+244 silly addNameRange     '2.7.0',
+244 silly addNameRange     '2.7.1',
+244 silly addNameRange     '2.8.0',
+244 silly addNameRange     '2.9.0',
+244 silly addNameRange     '2.10.0',
+244 silly addNameRange     '2.10.1',
+244 silly addNameRange     '2.10.2',
+244 silly addNameRange     '2.10.3' ] ]
+245 silly addNamed angularjs-slider@2.10.3
+246 verbose addNamed "2.10.3" is a plain semver version for angularjs-slider
+247 silly mapToRegistry name angular-mocks
+248 silly mapToRegistry using default registry
+249 silly mapToRegistry registry https://registry.npmjs.org/
+250 silly mapToRegistry uri https://registry.npmjs.org/angular-mocks
+251 verbose addRemoteTarball https://registry.npmjs.org/angular-mocks/-/angular-mocks-1.4.9.tgz not in flight; adding
+252 verbose addRemoteTarball [ 'https://registry.npmjs.org/angular-mocks/-/angular-mocks-1.4.9.tgz',
+252 verbose addRemoteTarball   '45990daa9331b8373379b9b298a973c7bb3b6892' ]
+253 silly mapToRegistry name angularjs-slider
+254 silly mapToRegistry using default registry
+255 silly mapToRegistry registry https://registry.npmjs.org/
+256 silly mapToRegistry uri https://registry.npmjs.org/angularjs-slider
+257 verbose addRemoteTarball https://registry.npmjs.org/angularjs-slider/-/angularjs-slider-2.10.3.tgz not in flight; adding
+258 verbose addRemoteTarball [ 'https://registry.npmjs.org/angularjs-slider/-/angularjs-slider-2.10.3.tgz',
+258 verbose addRemoteTarball   'cd27155811f224d15abab2abf3638d6348575228' ]
+259 verbose addTmpTarball /var/folders/24/476g2kh57gq39lq5m09wnsbh0000gn/T/npm-31836-e71a5791/registry.npmjs.org/angular-ui-router/-/angular-ui-router-0.2.18.tgz not in flight; adding
+260 verbose addTmpTarball already have metadata; skipping unpack for angular-ui-router@0.2.18
+261 info retry fetch attempt 1 at 7:14:18 PM
+262 info attempt registry request try #1 at 7:14:18 PM
+263 http fetch GET https://registry.npmjs.org/angular-mocks/-/angular-mocks-1.4.9.tgz
+264 info retry fetch attempt 1 at 7:14:18 PM
+265 info attempt registry request try #1 at 7:14:18 PM
+266 http fetch GET https://registry.npmjs.org/angularjs-slider/-/angularjs-slider-2.10.3.tgz
+267 silly cache afterAdd angular-ui-router@0.2.18
+268 verbose afterAdd /Users/joksina/.npm/angular-ui-router/0.2.18/package/package.json not in flight; writing
+269 verbose afterAdd /Users/joksina/.npm/angular-ui-router/0.2.18/package/package.json written
+270 silly fetchAndShaCheck shasum d08d172cc08e28b3372ea2de4c83c0be81165483
+271 verbose addTmpTarball /var/folders/24/476g2kh57gq39lq5m09wnsbh0000gn/T/npm-31836-e71a5791/registry.npmjs.org/angular-chart.js/-/angular-chart.js-0.8.9.tgz not in flight; adding
+272 verbose addTmpTarball already have metadata; skipping unpack for angular-chart.js@0.8.9
+273 silly cache afterAdd angular-chart.js@0.8.9
+274 verbose afterAdd /Users/joksina/.npm/angular-chart.js/0.8.9/package/package.json not in flight; writing
+275 verbose afterAdd /Users/joksina/.npm/angular-chart.js/0.8.9/package/package.json written
+276 http fetch 200 https://registry.npmjs.org/angular-mocks/-/angular-mocks-1.4.9.tgz
+277 http fetch 200 https://registry.npmjs.org/angularjs-slider/-/angularjs-slider-2.10.3.tgz
+278 silly fetchAndShaCheck shasum 45990daa9331b8373379b9b298a973c7bb3b6892
+279 verbose addTmpTarball /var/folders/24/476g2kh57gq39lq5m09wnsbh0000gn/T/npm-31836-e71a5791/registry.npmjs.org/angular-mocks/-/angular-mocks-1.4.9.tgz not in flight; adding
+280 verbose addTmpTarball already have metadata; skipping unpack for angular-mocks@1.4.9
+281 silly cache afterAdd angular-mocks@1.4.9
+282 verbose afterAdd /Users/joksina/.npm/angular-mocks/1.4.9/package/package.json not in flight; writing
+283 verbose afterAdd /Users/joksina/.npm/angular-mocks/1.4.9/package/package.json written
+284 silly fetchAndShaCheck shasum cd27155811f224d15abab2abf3638d6348575228
+285 verbose addTmpTarball /var/folders/24/476g2kh57gq39lq5m09wnsbh0000gn/T/npm-31836-e71a5791/registry.npmjs.org/angularjs-slider/-/angularjs-slider-2.10.3.tgz not in flight; adding
+286 verbose addTmpTarball already have metadata; skipping unpack for angularjs-slider@2.10.3
+287 silly cache afterAdd angularjs-slider@2.10.3
+288 verbose afterAdd /Users/joksina/.npm/angularjs-slider/2.10.3/package/package.json not in flight; writing
+289 verbose afterAdd /Users/joksina/.npm/angularjs-slider/2.10.3/package/package.json written
+290 silly fetchAndShaCheck shasum d138857c733d67378e7a47dbd3c2b8913401de97
+291 verbose addTmpTarball /var/folders/24/476g2kh57gq39lq5m09wnsbh0000gn/T/npm-31836-e71a5791/registry.npmjs.org/angular-material/-/angular-material-1.0.6.tgz not in flight; adding
+292 verbose addTmpTarball already have metadata; skipping unpack for angular-material@1.0.6
+293 silly cache afterAdd angular-material@1.0.6
+294 verbose afterAdd /Users/joksina/.npm/angular-material/1.0.6/package/package.json not in flight; writing
+295 verbose afterAdd /Users/joksina/.npm/angular-material/1.0.6/package/package.json written
+296 silly fetchAndShaCheck shasum d96ee97ab6df6cfd0915accbee484d098adb74ec
+297 verbose addTmpTarball /var/folders/24/476g2kh57gq39lq5m09wnsbh0000gn/T/npm-31836-e71a5791/registry.npmjs.org/angular/-/angular-1.5.0.tgz not in flight; adding
+298 verbose addTmpTarball already have metadata; skipping unpack for angular@1.5.0
+299 silly cache afterAdd angular@1.5.0
+300 verbose afterAdd /Users/joksina/.npm/angular/1.5.0/package/package.json not in flight; writing
+301 verbose afterAdd /Users/joksina/.npm/angular/1.5.0/package/package.json written
+302 verbose stack Error: Registry returned 404 for GET on https://registry.npmjs.org/Chart.js
+302 verbose stack     at makeError (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+302 verbose stack     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:242:14)
+302 verbose stack     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+302 verbose stack     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:198:22)
+302 verbose stack     at emitTwo (events.js:87:13)
+302 verbose stack     at Request.emit (events.js:172:7)
+302 verbose stack     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1082:10)
+302 verbose stack     at emitOne (events.js:82:20)
+302 verbose stack     at Request.emit (events.js:169:7)
+302 verbose stack     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1009:12)
+303 verbose statusCode 404
+304 verbose pkgid Chart.js
+305 verbose cwd /Users/joksina/Documents/Risk Management/public
+306 error Darwin 15.3.0
+307 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install"
+308 error node v4.3.1
+309 error npm  v2.14.12
+310 error code E404
+311 error 404 Registry returned 404 for GET on https://registry.npmjs.org/Chart.js
+311 error 404
+311 error 404 'Chart.js' is not in the npm registry.
+311 error 404 Your package name is not valid, because
+311 error 404
+311 error 404  1. name can no longer contain capital letters
+311 error 404 It was specified as a dependency of 'risk-management'
+311 error 404
+311 error 404 Note that you can also install from a
+311 error 404 tarball, folder, http url, or git url.
+312 verbose exit [ 1, true ]

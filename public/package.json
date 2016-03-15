@@ -1,0 +1,21 @@
+{
+  "name": "risk-management",
+  "version": "1.0.0",
+  "description": "An app to check risk",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "aj",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "latest",
+    "angular-route": "latest",
+    "angular-ui-router": "~0.2.15",
+    "angular-material": "~1.0.3",
+    "angular-mocks": "~1.4.9",
+    "angular-chart.js": "~0.8.8",
+    "Chart.js": "~1.0.2",
+    "angularjs-slider": "~2.10.2"
+  }
+}
